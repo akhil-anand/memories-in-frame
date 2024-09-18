@@ -85,7 +85,8 @@ const PersonalityScreen = ({ userDetails, nextScreen, component }) => {
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    marginTop: isDesktop ? 10 : 20, // Adjust the margin for mobile
+    marginTop: isDesktop ? 10 : 20, // Adjust the margin for mobile,
+    marginLeft: isDesktop ? 0 : '-25vw'
   };
 
   const flexFunction = () => {
@@ -111,7 +112,7 @@ const PersonalityScreen = ({ userDetails, nextScreen, component }) => {
             data-aos-mirror="true"
             data-aos-once="false"
             data-aos-anchor-placement="center"
-        item xs={6} style={{ width: isDesktop ? '50vw' : '100vw', maxWidth: '100vw' }} flexDirection={flexFunction}>
+        item xs={6} style={{ width: isDesktop ? '50vw' : '100vw', maxWidth: '100vw', minHeight: '40vh' }} flexDirection={flexFunction}>
           <Box display="flex" flexDirection={flexFunction} alignItems="center" style={{ width: isDesktop ? '50vw' : '100vw' }}>
             <div style={imageContainerStyle}>
               <img src={imageArray(0)} alt="Personality Image 1" style={imageStyle} />
@@ -124,7 +125,7 @@ const PersonalityScreen = ({ userDetails, nextScreen, component }) => {
         <Grid item xs={6} style={{ width: isDesktop ? '50vw' : '100vw' }}>
           <div style={textContainerStyle}>
             <TypeAnimation
-              style={{ fontFamily: 'cursive', fontStyle: 'italic', whiteSpace: 'pre-line', height: '195px', fontSize: '2em', display: 'block', minHeight: '200px' }}
+              style={{ fontFamily: 'cursive', fontStyle: 'italic', whiteSpace: 'pre-line', height: '195px', fontSize: isDesktop ? '2em' : '1em', display: 'block', minHeight: '200px', marginTop: '15vh' }}
               sequence={[
                 paragraphString(),
                 1000,
