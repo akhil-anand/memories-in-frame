@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/memories-in-frame/static/css/main.dceee457.css",
-    "main.js": "/memories-in-frame/static/js/main.ba30cd9e.js",
+    "main.js": "/memories-in-frame/static/js/main.612174e1.js",
     "static/js/453.381c9e18.chunk.js": "/memories-in-frame/static/js/453.381c9e18.chunk.js",
     "index.html": "/memories-in-frame/index.html",
     "main.dceee457.css.map": "/memories-in-frame/static/css/main.dceee457.css.map",
-    "main.ba30cd9e.js.map": "/memories-in-frame/static/js/main.ba30cd9e.js.map",
+    "main.612174e1.js.map": "/memories-in-frame/static/js/main.612174e1.js.map",
     "453.381c9e18.chunk.js.map": "/memories-in-frame/static/js/453.381c9e18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dceee457.css",
-    "static/js/main.ba30cd9e.js"
+    "static/js/main.612174e1.js"
   ]
 }
