@@ -125,7 +125,7 @@ const PersonalityScreen = ({ userDetails, nextScreen, component }) => {
         <Grid item xs={6} style={{ width: isDesktop ? '50vw' : '100vw' }}>
           <div style={textContainerStyle}>
             <TypeAnimation
-              style={{ fontFamily: 'cursive', fontStyle: 'italic', whiteSpace: 'pre-line', height: '195px', fontSize: isDesktop ? '2em' : '1em', display: 'block', minHeight: '200px', marginTop: '15vh' }}
+              style={{ fontFamily: 'cursive', whiteSpace: 'pre-line', height: '195px', fontSize: isDesktop ? '2em' : '1.5em', display: 'block', minHeight: '200px', marginTop: '15vh' }}
               sequence={[
                 paragraphString(),
                 1000,
